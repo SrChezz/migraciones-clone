@@ -26,14 +26,26 @@
   <nav class="bg-[#003C71]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex gap-4 justify-center">
-        <a href="#" class="px-4 py-3 text-white hover:bg-blue-900 rounded-md">
+        <a href="/" class="px-4 py-3 text-white hover:bg-blue-900 rounded-md">
           Programar cita
         </a>
-        <a href="#" class="px-4 py-3 text-white hover:bg-blue-900 rounded-md">
+        <a
+          href="/check"
+          class="px-4 py-3 text-white hover:bg-blue-900 rounded-md"
+        >
           Consultar
         </a>
-        <a href="#" class="px-4 py-3 text-white hover:bg-blue-900 rounded-md">
+        <a
+          href="/cancel"
+          class="px-4 py-3 text-white hover:bg-blue-900 rounded-md"
+        >
           Cancelar
+        </a>
+        <a
+          href="/test"
+          class="px-4 py-3 text-white hover:bg-blue-900 rounded-md"
+        >
+          Validar DNI
         </a>
       </div>
     </div>
