@@ -10,10 +10,6 @@ export default mergeConfig(
       exclude: [...configDefaults.exclude, 'e2e/**'],
       root: fileURLToPath(new URL('./', import.meta.url)),
     },
-    base: '/migraciones-clone/',
-    plugins: [],
-    resolve: {
-      alias: [],
-    },
+    base: 'https://SrChezz.github.io/migraciones-clone/',
   })
 );
